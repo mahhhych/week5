@@ -2,11 +2,23 @@
 <html>
     <head>
         <title>Hello</title>
+        <style>
+            input {
+                background-color: transparent;
+                border: 2px solid #ccc;
+                border-radius: 10px;
+                padding: 10px;
+            }
+
+            .btn {
+                cursor: pointer;
+            }
+        </style>
     </head>
     <body>
         <form action="/" method="post">
             <input type="text" name="username" placeholder="Username">
-            <input type="submit" value="push">
+            <input class="btn" type="submit" value="Push">
         </form>
     </body>
 </html>
